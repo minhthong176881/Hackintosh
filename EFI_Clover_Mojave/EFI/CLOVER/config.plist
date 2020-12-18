@@ -324,6 +324,121 @@
 			<key>DropOEM_DSM</key>
 			<false/>
 		</dict>
+		<key>Add</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-ASUSFN.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-ASUSFN.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-BATT.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-CONXEANT-FIX.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-CONXEANT-FIX.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-EC.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-EC.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-ELAN.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-ELAN.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-FAN-MOD.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-FAN-MOD.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-GPRW.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-GPRW.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-HACK.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-HACK.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-HDEF.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-HDEF.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-PNLF.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-PNLF.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-PTSWAK.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-PTSWAK.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-RP01_PEGP.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-RP01_PEGP.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-UIAC-ALL.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-UIAC-ALL.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-USBX.aml</string>
+				<key>Path</key>
+				<string>patched/SSDT-USBX.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
@@ -655,51 +770,51 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>FirmwareFeatures</key>
-		<string>0xFF0FF57E</string>
+		<string>0xFD8FF426</string>
 		<key>Board-ID</key>
-		<string>Mac-551B86E5744E2388</string>
+		<string>Mac-1E7E29AD0135F9BC</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF7F</string>
+		<string>0xFF9FFF3F</string>
 		<key>BoardVersion</key>
-		<string>MacBookPro14,3</string>
+		<string>MacBookPro15,3</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x9</string>
 		<key>BiosVersion</key>
-		<string>MBP143.88Z.F000.B00.2010062314</string>
+		<string>MBP153.88Z.F000.B00.2010290027</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisAssetTag</key>
 		<string>Asset Tag#</string>
 		<key>PlatformFeature</key>
-		<string>0x1A</string>
+		<string>0x32</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02721902J9J1JHJC</string>
+		<string>C02935501CD0000FB</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
-		<string>MacBookPro14,3</string>
+		<string>MacBookPro15,3</string>
 		<key>SmUUID</key>
-		<string>76E74FD5-C336-48A5-A346-45FFDD435507</string>
+		<string>617D3AD6-50AF-4FC4-8E37-095022EC0818</string>
 		<key>Mobile</key>
 		<true/>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>EfiVersion</key>
-		<string>429.40.5.0.0</string>
+		<string>1554.50.3.0.0</string>
 		<key>SerialNumber</key>
-		<string>C02TR0V9HTD5</string>
+		<string>C02Z90SGLVCG</string>
 		<key>ProductName-Comment</key>
 		<string>Using MacBookAir15,2 best near 8250U system</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>
-		<string>10/06/2020</string>
+		<string>10/29/2020</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -712,5 +827,95 @@
 	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.12.6+ with native KabyLake support</string>
+	<key>UEFI</key>
+	<dict>
+		<key>Drivers</key>
+		<array>
+		</array>
+	</dict>
+	<key>Kernel</key>
+	<dict>
+		<key>Add</key>
+		<array>
+		</array>
+	</dict>
+	<key>Misc</key>
+	<dict>
+		<key>Tools</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>bdmesg.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Name</key>
+				<string>bdmesg.efi</string>
+				<key>TextMode</key>
+				<false/>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+				<key>Path</key>
+				<string>bdmesg.efi</string>
+				<key>Auxiliary</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Shell32.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Name</key>
+				<string>Shell32.efi</string>
+				<key>TextMode</key>
+				<false/>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+				<key>Path</key>
+				<string>Shell32.efi</string>
+				<key>Auxiliary</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Shell64.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Name</key>
+				<string>Shell64.efi</string>
+				<key>TextMode</key>
+				<false/>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+				<key>Path</key>
+				<string>Shell64.efi</string>
+				<key>Auxiliary</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Shell64U.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Name</key>
+				<string>Shell64U.efi</string>
+				<key>TextMode</key>
+				<false/>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+				<key>Path</key>
+				<string>Shell64U.efi</string>
+				<key>Auxiliary</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>
